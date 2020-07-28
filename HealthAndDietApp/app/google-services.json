@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "499394916640",
+    "firebase_url": "https://dietandhealthapp-f0af1.firebaseio.com",
+    "project_id": "dietandhealthapp-f0af1",
+    "storage_bucket": "dietandhealthapp-f0af1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499394916640:android:c4ec46bd59e3e2889ce745",
+        "android_client_info": {
+          "package_name": "com.example.universaldietandhealthapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "499394916640-jo9cr12dokkmfrofou0l5ilb4esnuqd8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.universaldietandhealthapp",
+            "certificate_hash": "42aa59abd65fed8c2a7c36a55e7d7eefdfa38d62"
+          }
+        },
+        {
+          "client_id": "499394916640-eh05585n3991mdve15b6bpktlq9mdv1t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2WFQFQIuvIElXSxqj_7apklLmcWEKmIo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "499394916640-eh05585n3991mdve15b6bpktlq9mdv1t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

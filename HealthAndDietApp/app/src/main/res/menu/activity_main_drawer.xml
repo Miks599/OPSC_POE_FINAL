@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:icon="@drawable/baseline_person_24"
+        android:id="@+id/nav_PersonalInformation"
+        android:title="Personal Information" />
+
+    <item
+        android:icon="@drawable/baseline_flag_24"
+        android:id="@+id/nav_Goals"
+        android:title="Goals" />
+
+    <item
+        android:icon="@drawable/baseline_date_range_24"
+        android:id="@+id/nav_CalendarAndNotes"
+        android:title="Calendar and Notes" />
+
+    <item
+        android:icon="@drawable/baseline_assessment_24"
+        android:id="@+id/nav_CurrentVsTargetLevels"
+        android:title="Current vs. Target Levels" />
+
+    <item
+        android:icon="@drawable/baseline_settings_24"
+        android:id="@+id/nav_Settings"
+        android:title="Settings" />
+
+</menu>

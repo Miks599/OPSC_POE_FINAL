@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvCalendarAndNotes" />
+
+    <TextView
+        android:id="@+id/tvCalendarAndNotes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="108dp"
+        android:layout_marginLeft="108dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="109dp"
+        android:layout_marginRight="109dp"
+        android:layout_marginBottom="601dp"
+        android:text="Calendar and Notes"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnAddMeal"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Add Meal"
+        app:layout_constraintEnd_toEndOf="@+id/calendarView"
+        app:layout_constraintTop_toBottomOf="@+id/calendarView" />
+
+    <Button
+        android:id="@+id/btnAddNotes"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Add Notes"
+        app:layout_constraintStart_toStartOf="@+id/calendarView"
+        app:layout_constraintTop_toBottomOf="@+id/calendarView" />
+
+    <EditText
+        android:id="@+id/edtDailyWeightChanges"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Daily Weight Changes"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/btnAddNotes"
+        app:layout_constraintTop_toBottomOf="@+id/btnAddNotes" />
+
+    <EditText
+        android:id="@+id/edtWaterIntake"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Water Intake"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/edtDailyWeightChanges"
+        app:layout_constraintTop_toBottomOf="@+id/edtDailyWeightChanges" />
+
+    <Button
+        android:id="@+id/btnUpdateDailyWeightChanges"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:text="Update"
+        app:layout_constraintStart_toEndOf="@+id/edtDailyWeightChanges"
+        app:layout_constraintTop_toTopOf="@+id/edtDailyWeightChanges" />
+
+    <Button
+        android:id="@+id/btnUpdateWaterIntake"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:text="Update"
+        app:layout_constraintStart_toEndOf="@+id/edtWaterIntake"
+        app:layout_constraintTop_toTopOf="@+id/edtWaterIntake" />
+
+    <EditText
+        android:id="@+id/edtTotalCalorieIntake"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Total Calorie Intake"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/edtWaterIntake"
+        app:layout_constraintTop_toBottomOf="@+id/edtWaterIntake" />
+
+    <Button
+        android:id="@+id/btnUpdateTotalCalorieIntake"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:text="Update"
+        app:layout_constraintStart_toEndOf="@+id/edtTotalCalorieIntake"
+        app:layout_constraintTop_toTopOf="@+id/edtTotalCalorieIntake" />
+</androidx.constraintlayout.widget.ConstraintLayout>
